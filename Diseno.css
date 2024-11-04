@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap');
+
+body{
+background-color: rgb(255, 255, 255); /*color de fondo*/ 
+background-image: url();   /*imagen de fondo*/
+background-position: top center; /*se acomoda arriba en el medio*/
+background-repeat: no-repeat; /*que no se repita si no cubre toda la pantalla*/
+background-size: cover;  /*que ocupe toda la pantalla si es pequeña*/
+font-family: "SUSE", sans-serif;
+font-weight: 200; 
+}
+
+
+header nav {
+overflow: auto;    /*la barra sea un bloque y agrega scroll horizontal si no entra*/   
+}
+
+div#logo img {
+    width: 20%;
+    text-align: center;
+    display: block; 
+    margin: auto;
+
+}
+
+ul {
+    list-style: none;     /*saca puntito del bonton*/
+}
+
+header nav li {
+float: left;      /*que se acomode a la izquierda*/
+margin: auto;
+width: 20em;   /*ancho boton*/
+
+}
+
+header nav li a {
+    display: block;   /*cuadro debajo del boton*/
+background-color: rgb(1, 73, 45); /*color del recuadro del boton*/
+text-decoration: none;  /*saca el subrayado*/
+color: beige; /*color de la tipografia del boton*/
+height: 2em;   /*altura del boton*/
+line-height: 2em;  /*centra la tipo a la altura del boton*/
+text-align: center;  /*centrar la tipo en el ancho del boton*/    
+
+}
+
+header nav li a:hover {
+    background-color: blanchedalmond ;   /*color del recuadro del boton*/
+    color: rgb(17, 65, 3); /*color de la tipo del bonton*/
+    
+}
+
+main {
+
+    width: 90%; /*ancho del main*/
+float: center; /*que se acomode a la izquierda left*/ 
+height: 10em; /*alto*/
+background-color: rgb(255, 255, 255);
+ text-align: center;
+
+  
+    grid-template-columns: repeat(4, 1fr); /* Define 4 columnas de igual ancho */
+    gap: 10px; /* Espacio entre los elementos de la cuadrícula */
+
+
+
+}
+ 
+ 
+ 
+
+
+
+aside {
+width: 28%;  /*cancho del aside*/
+float: right;  /*que se acomode a la derecha*/
+height: 20em;  /*alto*/
+background-color: rgb(0, 0, 0);  /*color de fondo*/
+color: rgb(2, 73, 5);  /*color de la tipo*/
+padding: 0.8em; 
+
+}
+
+footer {
+clear: both;  /*pone el footer abajo*/
+}
